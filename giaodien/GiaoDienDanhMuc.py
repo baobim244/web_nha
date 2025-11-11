@@ -185,7 +185,7 @@ tree.heading("mota", text="Mô tả")
 tree.pack(fill="both", expand=True, pady=10)
 
 
-# Tải dữ liệu ban đầu
-load_danhmuc()
+if __name__ == "__main__":
+    load_danhmuc()
+    root.mainloop()
 
-root.mainloop()
